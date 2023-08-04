@@ -6,7 +6,8 @@ import requests
 import logging
 logging.basicConfig(filename="Scraper.log", level=logging.INFO, format='%(levelname)s %(asctime)s %(name)s %(message)s')
 
-app=Flask(__name__)
+application=Flask(__name__)
+app=application
 
 @app.route("/")
 def home():
@@ -51,5 +52,5 @@ def review():
     
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0")
 

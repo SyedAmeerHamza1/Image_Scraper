@@ -77,3 +77,37 @@ INFO 2023-08-01 12:31:42,272 werkzeug  * Debugger PIN: 125-571-059
 INFO 2023-08-01 12:31:56,255 werkzeug 127.0.0.1 - - [01/Aug/2023 12:31:56] "POST /review HTTP/1.1" 200 -
 INFO 2023-08-01 12:56:00,141 werkzeug 127.0.0.1 - - [01/Aug/2023 12:56:00] "POST /review HTTP/1.1" 200 -
 INFO 2023-08-01 12:56:29,594 werkzeug 127.0.0.1 - - [01/Aug/2023 12:56:29] "POST /review HTTP/1.1" 200 -
+INFO 2023-08-01 14:15:18,908 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO 2023-08-01 14:15:18,909 werkzeug [33mPress CTRL+C to quit[0m
+INFO 2023-08-01 14:15:18,910 werkzeug  * Restarting with stat
+WARNING 2023-08-01 14:15:19,406 werkzeug  * Debugger is active!
+INFO 2023-08-01 14:15:19,412 werkzeug  * Debugger PIN: 125-571-059
+INFO 2023-08-01 14:15:27,653 werkzeug 127.0.0.1 - - [01/Aug/2023 14:15:27] "GET / HTTP/1.1" 200 -
+INFO 2023-08-01 14:15:28,240 werkzeug 127.0.0.1 - - [01/Aug/2023 14:15:28] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2023-08-01 14:15:28,242 werkzeug 127.0.0.1 - - [01/Aug/2023 14:15:28] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO 2023-08-01 14:15:45,519 werkzeug 127.0.0.1 - - [01/Aug/2023 14:15:45] "POST /review HTTP/1.1" 200 -
+INFO 2023-08-01 14:16:21,183 werkzeug  * Detected change in 'D:\\Live_class\\Python Projects\\Image_Scraper\\application.py', reloading
+INFO 2023-08-01 14:16:21,233 werkzeug  * Restarting with stat
+INFO 2023-08-01 14:17:14,203 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.150.221:5000
+INFO 2023-08-01 14:17:14,204 werkzeug [33mPress CTRL+C to quit[0m
+INFO 2023-08-01 14:17:28,369 werkzeug 192.168.150.221 - - [01/Aug/2023 14:17:28] "GET / HTTP/1.1" 200 -
+INFO 2023-08-01 14:17:28,806 werkzeug 192.168.150.221 - - [01/Aug/2023 14:17:28] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO 2023-08-01 14:17:28,807 werkzeug 192.168.150.221 - - [01/Aug/2023 14:17:28] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO 2023-08-01 14:17:28,833 werkzeug 192.168.150.221 - - [01/Aug/2023 14:17:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2023-08-01 14:17:42,263 werkzeug 192.168.150.221 - - [01/Aug/2023 14:17:42] "POST /review HTTP/1.1" 200 -
+INFO 2023-08-04 20:54:05,282 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+INFO 2023-08-04 20:54:05,283 werkzeug [33mPress CTRL+C to quit[0m
+INFO 2023-08-04 20:54:19,812 werkzeug 127.0.0.1 - - [04/Aug/2023 20:54:19] "GET / HTTP/1.1" 200 -
+INFO 2023-08-04 20:54:20,340 werkzeug 127.0.0.1 - - [04/Aug/2023 20:54:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO 2023-08-04 20:54:20,341 werkzeug 127.0.0.1 - - [04/Aug/2023 20:54:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO 2023-08-04 20:54:20,386 werkzeug 127.0.0.1 - - [04/Aug/2023 20:54:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2023-08-04 20:54:20,580 werkzeug 127.0.0.1 - - [04/Aug/2023 20:54:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2023-08-04 20:54:20,890 werkzeug 127.0.0.1 - - [04/Aug/2023 20:54:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO 2023-08-04 20:54:37,799 werkzeug 127.0.0.1 - - [04/Aug/2023 20:54:37] "POST /review HTTP/1.1" 200 -
